@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
     @RequestMapping("/server/v2/RegulatedAuthorization/fa5a7413-a19e-4524-8fd6-ced86f64038b")
     public String home() {
-        return "[{"id":"fa5a7413-a19e-4524-8fd6-ced86f64038b","name":"AMGEN"}]";
+        return "[{id:fa5a7413-a19e-4524-8fd6-ced86f64038b,name:AMGEN}]";
     }
 
 	public static void main(String[] args) {
